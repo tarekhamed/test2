@@ -1,0 +1,348 @@
+/*start section header */
+.bg{
+    
+    background-color:rgba(0,0,0,0.3);
+    width:100%;
+    height:100%
+}
+.header{
+    
+    background-image: url(bg-parallax.jpg);
+    background-size: 100% 100%;
+    height:800px;
+    overflow: hidden
+    
+}
+
+.nav-bar{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(0,0,0,.2);
+      
+}
+.nav-bar ul li a {
+    
+    color:#FFF !important
+}
+.container-fluid img{
+    
+    color:#FFF
+}
+
+/* start header part two */
+
+
+.text{
+    
+    width:50%;
+    position: absolute;
+    top:50%;
+    left:22.5%;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;;
+    color:#FFF
+    
+    
+}
+
+.container p:first-of-type {
+    
+    font-size: 40px;
+
+}
+
+.container p:nth-of-type(2) {
+    
+    font-size: 15px
+    
+}
+    
+
+.container h3 {
+    
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    
+    
+}
+
+h3:after{
+    
+    content: "";
+    width: 30px;
+    height:4px;
+    background-color: orangered;
+    position: absolute;
+    top:180%;
+    right:48%;
+    
+    
+}
+
+/*start second section*/
+.second{
+    
+    background-color:#fcfcfc;
+    padding-bottom: 50px;
+    
+}
+.content{
+    
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;  
+    padding-top: 70px
+}
+
+
+
+.content:after{
+    
+    content: "";
+    width: 60px;
+    height:2px;
+    background-color: orangered;
+    position: absolute;
+    top:100%;
+    right:48%;
+    
+}
+
+
+/*third section*/
+.third-section{
+    
+    margin-bottom: 90px;
+    
+}
+
+.third-section .About_us{
+    
+    text-align: center;
+    padding-top: 80px;
+    
+    
+}
+
+.third-section .About_us h2{
+    
+    font-size: 2.75rem!important;
+    line-height: 2.75rem!important;   
+}
+
+.third-section .About_us p {
+    
+         font-size: 1.5rem!important;
+             line-height: 2.25rem!important;
+    
+}
+
+
+
+.third-section .About_us p:after{
+    
+    content: "";
+    width: 60px;
+    height:2px;
+    background-color: orangered;
+    position: absolute;
+    top:100%;
+    right:47%;
+    
+}
+
+.third-section .description  p{
+    
+    font-size: 1.125rem!important;
+    line-height: 1.688rem!important;
+    font-family: 'Montserrat', sans-serif
+}
+
+
+/*start section fun facts*/ 
+.fun_facts{
+    
+    background-image: url(bg-fun-facts.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+    width:100%;
+   height:600px;
+    color:#FFF
+}
+
+.fun_facts .bg{
+    
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,.4)
+}
+
+.fun_facts .Awards h2{
+    
+        font-size: 2.75rem!important;
+    line-height: 2.75rem!important;
+    
+    
+}
+.fun_facts .Awards p{
+    font-size: 1.5rem!important;
+    line-height: 2.25rem!important;}
+    
+    
+    
+ .fun_facts .Awards p:after{
+    
+    content: "";
+    width: 60px;
+    height:2px;
+    background-color: orangered;
+    position: absolute;
+    top:100%;
+    right:48%;
+    
+} 
+
+.fun_facts .projects{
+    
+    text-align: center;
+    margin-top: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fun_facts .projects p:first-of-type{
+    
+    
+        font-size: 3.125rem!important;
+    line-height: 3.125rem!important;
+    
+}
+
+
+.fun_facts .projects p:nth-child(2){
+    
+    
+        font-size: 3.125rem!important;
+    line-height: 3.125rem!important;
+}
+
+.fun_facts .projects p:nth-child(3){
+    
+    
+        font-size: 3.125rem!important;
+    line-height: 3.125rem!important;
+}
+
+.fun_facts .projects  p:nth-child(4){
+    
+    
+        font-size: 3.125rem!important;
+    line-height: 3.125rem!important;
+}
+
+.fun_facts .projects i {
+    
+    color:orangered
+}
+    
+/* start why us */
+.why_us{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.why_us .REASONS {
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.why_us .REASONS h2{
+    
+    
+    font-size:2.75rem!important;
+    line-height: 2.75rem!important;
+}
+
+.why_us .REASONS p{
+    
+    
+        font-size: 1.5rem!important;
+    line-height: 2.25rem!important;
+}
+
+.why_us .speed p {
+    
+    
+    font-family: 'Montserrat', sans-serif;
+        font-size:15px;
+    line-height: 2.25rem!important;
+}
+.spinner i {
+    
+    color:#fff;
+    font-size: 20px;
+    background-color: orangered;
+    padding: 10px
+    
+}
+
+/*start our services*/
+
+
+ h2 {
+    
+    
+        font-size: 2.75rem!important;
+    line-height: 2.75rem!important;
+
+}
+
+.OUR_SERVICES p {
+    
+    
+        font-size: 1.5rem!important;
+    line-height: 2.25rem!important;
+}
+
+
+
+.OUR_SERVICES  h2:after{
+    
+    content: "";
+    width: 50px;
+    height:4px;
+    background-color: orangered;
+    position: absolute;
+    top:100%;
+    right:47%;
+    
+    
+}
+
+
+.OUR_SERVICES  .brand i {
+    
+    
+    font-size: 35px;
+    text-align: center
+}
+.OUR_SERVICES  .brand h4{
+    
+    
+    font-size: 1.5rem!important;
+    line-height: 2.25rem!important;
+    margin-top: 15px
+}
+.OUR_SERVICES  .brand p {
+    
+    
+        font-size: 1rem!important;
+    line-height: 1.5rem!important;
+    margin-top: 15px
+}
